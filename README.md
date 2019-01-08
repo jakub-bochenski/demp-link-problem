@@ -1,4 +1,6 @@
 
+Create a client config with proxy as per https://docs.docker.com/network/proxy/
+
 ```
 cd test
 docker build .
