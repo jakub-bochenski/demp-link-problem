@@ -1,4 +1,6 @@
-FROM busybox
-COPY . /build-context
-WORKDIR /build-context
-CMD ls -la
+
+    FROM ubuntu
+
+    RUN echo $HTTP_PROXY && apt-get update             
+
+ 
