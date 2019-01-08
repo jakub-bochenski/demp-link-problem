@@ -1,6 +1,5 @@
-
     FROM ubuntu
 
-    RUN echo $HTTP_PROXY && apt-get update             
+    RUN echo "Proxy: $HTTP_PROXY !" && apt-get update             
 
  
